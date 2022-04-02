@@ -18,10 +18,10 @@ const TaskContacto = ({add}) => {
     return (
         <form onSubmit={addContacto} className="d-flex justify-content-center align-items-center mb-4">
             <div className="form-outline flex-fill">
-                <input ref={nameRef} id="inputName" type="text" className="form-control form-control-lg" required autoFocus placeholder='Nombre de la tarea'/>
+                <input ref={nameRef} id="inputName" type="text" className="form-control form-control-lg" required autoFocus placeholder='Nombre del contacto'/>
                 <label htmlFor="selectLevel" className="sr-only"></label>
             </div>
-            <button type="submit" className="btn btn-success btn-lg ms-2">Añadir Tarea</button>
+            <button type="submit" className="btn btn-success btn-lg ms-2">Añadir Contacto</button>
         </form>
     );
 }
