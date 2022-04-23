@@ -1,5 +1,9 @@
 import './App.css';
-import Axiosexample from './components/ejercicios-19-20-21/Api';
+//import Loginusereducer from './components/LoginUseReducer';
+//import Counter from './components/Counter';
+//import Loginusestate from './components/LoginUseState';
+import Tasksusereducer from './components/TasksReducer';
+//import Axiosexample from './components/ejercicios-19-20-21/Api';
 //import FormulariosTarea from './components/ejercicios-13-14-15/formulariosTarea';
 //import Elemento from './components/ejercicios-10-11-12/elemento';
 //import Ejemplo4 from './components/children';
@@ -27,7 +31,11 @@ function App() {
       {/*<ComponentListContacto></ComponentListContacto>*/}
       {/*<Elemento></Elemento>*/}
       {/*<FormulariosTarea></FormulariosTarea>*/}
-      <Axiosexample></Axiosexample>
+      {/*<Axiosexample></Axiosexample>*/}
+      {/*<Counter></Counter>*/}
+      {/*<Loginusestate></Loginusestate>*/}
+      {/*<Loginusereducer></Loginusereducer>*/}
+      <Tasksusereducer></Tasksusereducer>
     </div>
   );
 }
